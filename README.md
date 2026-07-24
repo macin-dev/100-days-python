@@ -5,7 +5,7 @@ Welcome to my **100 Days of Code** journey in Python! This repository tracks my 
 ---
 
 ## 🚀 The Goal
-* **Commitment:** Code for at least 1 hour every day for 100 consecutive days.
+* **Commitment:** Code for at least 2 hours every day for 100 consecutive days.
 * **Focus:** Build projects, solve algorithmic problems, master Object-Oriented Programming (OOP), web scraping, APIs, and data science in Python.
 * **Track progress:** Document what I learn daily and share the code here.
 
@@ -17,15 +17,7 @@ Here is the log of my daily projects and key concepts learned:
 
 | Day | Project / Topic | Key Concepts | Status |
 | :---: | :--- | :--- | :---: |
-| **1-14** | **Beginner Module** | Basics, Data Types, Control Flow, Functions | ⬜ *Pending Import* |
-| **15-16** | **Intermediate Setup** | Coffee Machine OOP, Local Dev Setup | ⬜ *Pending Import* |
 | **17** | 🎮 [Quiz Game](file:///Users/macin/Desktop/100_days_python/day-17-quiz-game) | Classes, OOP Attributes & Methods, Constructor (`__init__`) | ✅ Completed |
-| **18** | ⬜ *Day 18 Project* | Turtle Graphics, Tuples, Import Modules | ⬜ Next Up |
-| **19** | ⬜ *Day 19 Project* | Higher-Order Functions, Event Listeners | ⬜ Planned |
-| **20-21** | 🐍 *Snake Game* | Inheritance, List Slicing, Class Polymorphism | ⬜ Planned |
-
-*...and more projects to be added as the journey continues!*
-
 ---
 
 ## 🛠️ How to Run Projects Locally
@@ -34,7 +26,7 @@ Each project is self-contained in its respective `day-XX-name` folder.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/100-days-python.git
+   git clone https://github.com/macin-dev/100-days-python.git
    cd 100-days-python
    ```
 
@@ -52,8 +44,4 @@ Each project is self-contained in its respective `day-XX-name` folder.
    ```bash
    python day-17-quiz-game/main.py
    ```
-
 ---
-
-## 📈 Learning Milestones
-* [x] **Day 17:** Successfully modeled a Quiz Game using OOP principles.
