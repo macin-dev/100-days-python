@@ -5,17 +5,16 @@ timmy = Turtle()
 my_screen = Screen()
 
 timmy.shape("turtle")
+timmy.pensize(10)
+timmy.speed("fastest")
 
-# Draw a triangle, square, pentagon, hexagon,
-# heptagon, octagon, nonagon, and decagon
-colors = ["red", "blue", "green", "yellow", "orange", "pink", "purple"]
+# Draw a Random Walk
+colors = ["red", "orange", "yellow", "green", "blue", "violet", "purple"]
+directions = [90, 180, 270, 360]
 
-# Draw shapes from 3 sides (triangle) up to 10 sides (decagon)
-for num_sides in range(3,11):
-    angle = 360 / num_sides
+for _ in range(100):
+    timmy.right(choice(directions))
     timmy.color(choice(colors))
-    for _ in range(num_sides):
-        timmy.forward(100)
-        timmy.right(angle)
+    timmy.forward(20)
 
 my_screen.exitonclick()
