@@ -10,7 +10,7 @@ timmy.speed("fastest")
 
 # Draw a Random Walk
 colors = ["red", "orange", "yellow", "green", "blue", "violet", "purple"]
-directions = [90, 180, 270, 360]
+directions = [0, 90, 180, 270]
 
 for _ in range(100):
     timmy.right(choice(directions))
