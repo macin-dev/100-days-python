@@ -6,9 +6,11 @@ my_screen = Screen()
 timmy.shape("turtle")
 timmy.color("green")
 
-# Draw a square using Turtle
-for _ in range(4):
-    timmy.forward(100)
-    timmy.right(90)
+# Draw a Dashed line
+for _ in range(10):
+    timmy.forward(10)
+    timmy.penup()
+    timmy.forward(10)
+    timmy.pendown()
 
 my_screen.exitonclick()
