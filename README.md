@@ -18,6 +18,7 @@ Here is the log of my daily projects and key concepts learned:
 | Day | Project / Topic  | Key Concepts | Status |
 | :---: |:-----------------| :--- | :---: |
 | **17** | 🎮 [Quiz Game](https://github.com/macin-dev/100-days-python/tree/main/day-17-quiz-game) | Classes, OOP Attributes & Methods, Constructor (`__init__`) | ✅ Completed |
+| **18** | 🎨 [Hirst Spot Painting](https://github.com/macin-dev/100-days-python/tree/main/day-18-turtle-module) | Turtle Graphics, Tuples, RGB Color Modes, Color Extraction (`colorgram`) | ✅ Completed |
 ---
 
 ## 🛠️ How to Run Projects Locally
