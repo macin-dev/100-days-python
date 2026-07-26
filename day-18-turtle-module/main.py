@@ -1,11 +1,10 @@
-from random import choice, randint
+from random import randint
 from turtle import Turtle, Screen
 
 timmy = Turtle()
 my_screen = Screen()
 
 timmy.shape("turtle")
-timmy.pensize(10)
 timmy.speed("fastest")
 my_screen.colormode(255)
 
@@ -16,12 +15,12 @@ def random_color():
     return (r, g, b)
 
 
-# Draw a Random Walk
-directions = [0, 90, 180, 270]
+# Make a Spirograph
+num_circles = int(360 / 5)
 
-for _ in range(100):
-    timmy.right(choice(directions))
+for _ in range(num_circles):
     timmy.color(random_color())
-    timmy.forward(20)
+    timmy.circle(100)
+    timmy.left(5)
 
 my_screen.exitonclick()
