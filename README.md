@@ -15,11 +15,12 @@ Welcome to my **100 Days of Code** journey in Python! This repository tracks my 
 
 Here is the log of my daily projects and key concepts learned:
 
-| Day | Project / Topic  | Key Concepts | Status |
-| :---: |:-----------------| :--- | :---: |
-| **17** | 🎮 [Quiz Game](https://github.com/macin-dev/100-days-python/tree/main/day-17-quiz-game) | Classes, OOP Attributes & Methods, Constructor (`__init__`) | ✅ Completed |
+| Day | Project / Topic                                                                                       | Key Concepts | Status |
+| :---: |:------------------------------------------------------------------------------------------------------| :--- | :---: |
+| **17** | 🎮 [Quiz Game](https://github.com/macin-dev/100-days-python/tree/main/day-17-quiz-game)               | Classes, OOP Attributes & Methods, Constructor (`__init__`) | ✅ Completed |
 | **18** | 🎨 [Hirst Spot Painting](https://github.com/macin-dev/100-days-python/tree/main/day-18-turtle-module) | Turtle Graphics, Tuples, RGB Color Modes, Color Extraction (`colorgram`) | ✅ Completed |
-| **19** | 🐢 [Turtle Race & Etch-A-Sketch](https://github.com/macin-dev/100-days-python/tree/main/day-19-turtle-module) | Instances, State, Event Listeners & Higher-Order Functions | ✅ Completed |
+| **19** | 🐢 [Turtle Race](https://github.com/macin-dev/100-days-python/tree/main/day-19-turtle-module)         | Instances, State, Event Listeners & Higher-Order Functions | ✅ Completed |
+| **20** | 🐍 [Snake Game (Part 1)](https://github.com/macin-dev/100-days-python/tree/main/day-20-snake-game)   | OOP Class Refactoring, Screen Animations (`tracer`), Constants | ✅ Completed |
 ---
 
 ## 🛠️ How to Run Projects Locally
