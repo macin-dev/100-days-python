@@ -1,30 +1,19 @@
 from turtle import Turtle, Screen
 
-tim = Turtle()
 screen = Screen()
+screen.setup(width=500, height=400)
+user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color: ")
+colors = ["pink", "red", "green", "blue", "purple", "orange"]
 
-screen.listen()
+# Crete 6 instances of turtle
+y_axis = -70
+x_axis = -230
 
-def move_forward():
-    tim.forward(10)
-
-def move_backwards():
-    tim.backward(10)
-
-def rotate_to_left():
-    tim.left(10)
-
-def rotate_to_right():
-    tim.right(10)
-
-def clear_drawing():
-    tim.reset()
-
-# Make an Etch-A-Sketch App
-screen.onkey(key="w", fun=move_forward)
-screen.onkey(key="s", fun=move_backwards)
-screen.onkey(key="a", fun=rotate_to_left)
-screen.onkey(key="d", fun=rotate_to_right)
-screen.onkey(key="c", fun=clear_drawing)
+for color in colors:
+    tim = Turtle(shape="turtle")
+    tim.color(color)
+    tim.penup()
+    tim.goto(x=x_axis, y=y_axis)
+    y_axis += 30
 
 screen.exitonclick()
