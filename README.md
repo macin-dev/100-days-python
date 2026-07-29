@@ -24,6 +24,7 @@ Here is the log of my daily projects and key concepts learned:
 | **22** | 🏓 [Pong Game](https://github.com/macin-dev/100-days-python/tree/main/day-22-pong-game) | OOP Class Design, Event Listeners, Dynamic Speed, Scoreboard | ✅ Completed |
 | **23** | 🚗 [Turtle Crossing](https://github.com/macin-dev/100-days-python/tree/main/day-23-turtle-crossing) | Turtle Capstone Project, Object Management, Level Progression | ✅ Completed |
 | **24** | ✉️ [Mail Merge Project](https://github.com/macin-dev/100-days-python/tree/main/day-24-files/mail_merge_project) | File I/O, String Manipulation (`strip`, `replace`), Context Managers (`with`) | ✅ Completed |
+| **25** | 🐿️ [Squirrel Census Analysis](https://github.com/macin-dev/100-days-python/tree/main/day-25-csv-files) | CSV Data Parsing, Pandas DataFrames & Series, Data Filtering | 🔄 In Progress |
 ---
 
 ## 🛠️ How to Run Projects Locally
@@ -48,6 +49,6 @@ Each project is self-contained in its respective `day-XX-name` folder.
 
 3. **Run a specific day's project (e.g., Day 17):**
    ```bash
-   python day-17-quiz-game/main.py
+   python day-17-quiz-game/main_copy.py
    ```
 ---
