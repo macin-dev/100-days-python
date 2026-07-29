@@ -21,6 +21,7 @@ Here is the log of my daily projects and key concepts learned:
 | **18** | 🎨 [Hirst Spot Painting](https://github.com/macin-dev/100-days-python/tree/main/day-18-turtle-module) | Turtle Graphics, Tuples, RGB Color Modes, Color Extraction (`colorgram`) | ✅ Completed |
 | **19** | 🐢 [Turtle Race](https://github.com/macin-dev/100-days-python/tree/main/day-19-turtle-module)         | Instances, State, Event Listeners & Higher-Order Functions | ✅ Completed |
 | **20-21** | 🐍 [Snake Game](https://github.com/macin-dev/100-days-python/tree/main/day-20-21-snake-game) | Class Inheritance, Slicing, Collision Detection, Scoreboard & Animations | ✅ Completed |
+| **22** | 🏓 [Pong Game](https://github.com/macin-dev/100-days-python/tree/main/day-22-pong-game) | OOP Class Design, Event Listeners, Dynamic Speed, Scoreboard | ✅ Completed |
 ---
 
 ## 🛠️ How to Run Projects Locally
