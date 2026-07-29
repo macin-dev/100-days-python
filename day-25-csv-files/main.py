@@ -1,36 +1,21 @@
-# import csv
-#
-# with open("weather_data.csv") as data_file:
-#     reader = csv.reader(data_file)
-#     headline = next(reader)
-#
-#     temperatures = []
-#     for row in reader:
-#         temperatures.append(int(row[1]))
-#
-#     print(temperatures)
+import pandas as pd
 
-import pandas
 
-data = pandas.read_csv("./weather_data.csv")
-temp_list = data["temp"].tolist()
+# Read the CSV file
+data = pd.read_csv("central_park_squirrel_data.csv")
 
-# Get Data in Row
-print(data[data.day == "Monday"])
+# Filter out and count the squirrel's color by group color
+gray_count = len(data[data["Primary Fur Color"] == "Gray"])
+black_count = len(data[data["Primary Fur Color"] == "Black"])
+cinnamon_count = len(data[data["Primary Fur Color"] == "Cinnamon"])
 
-# Get the row with the highest temperature
-print(data[data.temp == data.temp.max()])
-
-# Convert Monday's temperature to Fahrenheit
-monday = data[data.day == "Monday"]
-fahrenheit = monday.temp * 9 / 5 + 32
-# print(fahrenheit)
-
-# Create a Dataframe from scratch
-data_dict = {
-    "students": ["Ana", "David", "Loren"],
-    "scores": [9, 7, 10]
+# Create a dictionary to convey the Dataframe formatting
+data_dic = {
+    "Fur color": ["Grey", "Cinnamon", "Black"],
+    "Count": [gray_count, cinnamon_count, black_count]
 }
 
-data = pandas.DataFrame(data_dict)
-data.to_csv("new_data.csv")
+# Export to a new csv file using the formatted dictionary
+dataframe = pd.DataFrame(data_dic)
+dataframe.to_csv("squirrel_count.csv")
+
