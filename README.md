@@ -22,6 +22,7 @@ Here is the log of my daily projects and key concepts learned:
 | **19** | 🐢 [Turtle Race](https://github.com/macin-dev/100-days-python/tree/main/day-19-turtle-module)         | Instances, State, Event Listeners & Higher-Order Functions | ✅ Completed |
 | **20-21** | 🐍 [Snake Game](https://github.com/macin-dev/100-days-python/tree/main/day-20-21-snake-game) | Class Inheritance, Slicing, Collision Detection, Scoreboard & Animations | ✅ Completed |
 | **22** | 🏓 [Pong Game](https://github.com/macin-dev/100-days-python/tree/main/day-22-pong-game) | OOP Class Design, Event Listeners, Dynamic Speed, Scoreboard | ✅ Completed |
+| **23** | 🚗 [Turtle Crossing](https://github.com/macin-dev/100-days-python/tree/main/day-23-turtle-crossing) | Turtle Capstone Project, Object Management, Level Progression | ✅ Completed |
 ---
 
 ## 🛠️ How to Run Projects Locally
