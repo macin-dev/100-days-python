@@ -16,16 +16,11 @@ class Player(Turtle):
         self.reset_position()
         self.FINISH_LINE_Y = FINISH_LINE_Y
 
-
-    # Set the starting position
     def reset_position(self):
         self.goto(STARTING_POSITION)
 
-
-    # Move the turtle
     def move(self):
         self.forward(MOVE_DISTANCE)
-
 
     def is_at_finish_line(self):
         return self.ycor() > FINISH_LINE_Y

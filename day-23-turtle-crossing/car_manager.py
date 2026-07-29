@@ -21,6 +21,7 @@ class Car(Turtle):
     def random_position(self):
         self.goto(300, random.randint(-250, 250))
 
+
 class CarManager:
 
     def __init__(self):
@@ -35,7 +36,6 @@ class CarManager:
     def move_cars(self):
         for car in self.all_cars:
             car.move(self.car_speed)
-
 
     def level_up(self):
         self.car_speed += MOVE_INCREMENT
