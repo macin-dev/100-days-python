@@ -14,7 +14,7 @@ screen.title("Turtle Crossing")
 player = Player()
 car_manager = CarManager()
 
-# Listen for keys®
+# Listen for keys
 screen.listen()
 screen.onkey(player.move, "Up")
 
@@ -31,6 +31,12 @@ while game_is_on:
     for car in car_manager.all_cars:
         if car.distance(player) < 20:
             game_is_on = False
+
+    # Reset the turtle's position once it crossed the finish line
+    if player.is_at_finish_line():
+        player.reset_position()
+        car_manager.level_up()
+
 
 
 screen.exitonclick()
